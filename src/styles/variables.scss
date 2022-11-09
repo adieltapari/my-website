@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root {
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+
+  //fonts
+  --main-font: 'Poppins', sans-serif;
+
+  --base-text-color: var(--foreground);
+  --ligth: #fff;
+}
+
+[data-theme='dark'] {
+  --background: #0c021a;
+  --foreground: #fff;
+}
+
+[data-theme='light'] {
+  --background: #fff;
+  --foreground: #0c021a;
+}
