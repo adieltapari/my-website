@@ -15,6 +15,7 @@ import { HiCursorClick } from 'react-icons/hi';
 import { VARIANTS_OPACITY } from '../constants/animation';
 import BaseText from '../components/common/BaseText';
 import About from '../components/About';
+import Projects from '../components/Projects';
 
 const Home: NextPage = () => {
   const [showExperience, setShowExperience] = useState(false);
@@ -61,7 +62,10 @@ const Home: NextPage = () => {
           transition={{ ease: 'easeOut', delay: 0.2 }}
         >
           <Layout>
-            <About />
+            <div>
+              <About />
+              <Projects />
+            </div>
           </Layout>
         </motion.div>
       )}

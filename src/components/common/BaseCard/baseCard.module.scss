@@ -1,0 +1,65 @@
+@import '../../../styles/mixings.scss';
+
+.cardGrid {
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 1fr 0.7fr;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 40px 30px 30px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  @include media-breakpoint-between(xs, sm) {
+    display: flex;
+    width: 346px;
+    height: 185px;
+  }
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  display: flex;
+  margin-left: 15px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.infoContent {
+  padding: 1rem;
+  text-align: center;
+}
+
+.iconContainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.backContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90px;
+}
+
+.frontContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90px;
+}
