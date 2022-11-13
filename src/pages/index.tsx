@@ -16,6 +16,7 @@ import { VARIANTS_OPACITY } from '../constants/animation';
 import BaseText from '../components/common/BaseText';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 const Home: NextPage = () => {
   const [showExperience, setShowExperience] = useState(false);
@@ -65,6 +66,7 @@ const Home: NextPage = () => {
             <div>
               <About />
               <Projects />
+              <Skills />
             </div>
           </Layout>
         </motion.div>
