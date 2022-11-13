@@ -16,8 +16,9 @@ const Header: FC = () => {
       <Link href="/#projects">
         <BaseText medium text=".projects" />
       </Link>
-
-      <BaseText medium text=".skills" />
+      <Link href="/#skills">
+        <BaseText medium text=".skills" />
+      </Link>
       <div>
         <BaseText medium text=".contact" />
       </div>

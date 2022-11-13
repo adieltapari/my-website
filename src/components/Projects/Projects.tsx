@@ -7,7 +7,7 @@ import styles from './Projects.module.scss';
 const Projects: FC = () => {
   return (
     <div id="projects">
-      <BaseTitle size={38} title="Projects" marginTop={200} />
+      <BaseTitle size={38} title="Projects" marginTop={200} marginBottom={50} />
       <div className={styles.contentBaseCard}>
         <BaseCard
           title="Ecommerce"
