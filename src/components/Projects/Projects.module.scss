@@ -1,4 +1,6 @@
-.linksContainer {
-  display: flex;
-  justify-content: flex-start;
+.contentBaseCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
