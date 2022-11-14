@@ -1,3 +1,5 @@
+@import '../../styles/mixings.scss';
+
 .contactContainer {
   display: flex;
   align-items: center;
@@ -5,6 +7,9 @@
   flex-direction: column;
   border-top: 1.5px solid rgb(49, 53, 56);
   padding: 0 332px 0 332px;
+  @include media-breakpoint-between(xs, sm) {
+    padding: 0 0px 0 0px;
+  }
 }
 
 .iconContainer {

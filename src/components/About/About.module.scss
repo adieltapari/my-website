@@ -1,3 +1,5 @@
+@import '../../styles/mixings.scss';
+
 .linksContainer {
   display: flex;
   justify-content: flex-start;
@@ -8,4 +10,7 @@
   align-items: center;
   justify-content: center;
   width: 75%;
+  @include media-breakpoint-between(xs, sm) {
+    width: 100%;
+  }
 }
