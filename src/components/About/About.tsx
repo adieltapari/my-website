@@ -40,12 +40,12 @@ market."
       />
       <BaseTitle size={28} title="Hobbies" marginBottom={50} marginTop={50} />
       <div className={styles.contentIcon}>
-        <GiMountainClimbing size={50} />
-        <BsFillMusicPlayerFill size={50} />
+        <GiMountainClimbing size={40} />
+        <BsFillMusicPlayerFill size={40} />
 
-        <IoLogoGameControllerB size={50} />
-        <FaMountain size={50} />
-        <FaRobot size={50} />
+        <IoLogoGameControllerB size={40} />
+        <FaMountain size={40} />
+        <FaRobot size={40} />
       </div>
     </>
   );

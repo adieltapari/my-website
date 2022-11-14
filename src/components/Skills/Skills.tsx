@@ -27,43 +27,43 @@ const About: FC = () => {
 
       <div className={styles.contentIcon}>
         <div className={styles.contentIconColumn}>
-          <IoLogoNodejs size={50} />
+          <IoLogoNodejs size={40} />
           <BaseText medium regular text="NodeJs" />
         </div>
         <div className={styles.contentIconColumn}>
-          <TbBrandJavascript size={50} />
+          <TbBrandJavascript size={40} />
           <BaseText medium regular text="Java Script" />
         </div>
         <div className={styles.contentIconColumn}>
-          <ImHtmlFive2 size={50} />
+          <ImHtmlFive2 size={40} />
           <BaseText medium regular text="HTML5" />
         </div>
         <div className={styles.contentIconColumn}>
-          <IoLogoCss3 size={50} />
+          <IoLogoCss3 size={40} />
           <BaseText medium regular text="CSS3" />
         </div>
         <div className={styles.contentIconColumn}>
-          <SiMongodb size={50} />
+          <SiMongodb size={40} />
           <BaseText medium regular text="Mongo DB" />
         </div>
         <div className={styles.contentIconColumn}>
-          <TbBrandNextjs size={50} />
+          <TbBrandNextjs size={40} />
           <BaseText medium regular text="NextJS" />
         </div>
         <div className={styles.contentIconColumn}>
-          <GrReactjs size={50} />
+          <GrReactjs size={40} />
           <BaseText medium regular text="ReactJS" />
         </div>
         <div className={styles.contentIconColumn}>
-          <SiTypescript size={50} />
+          <SiTypescript size={40} />
           <BaseText medium regular text="Type Script" />
         </div>
         <div className={styles.contentIconColumn}>
-          <AiFillGithub size={50} />
+          <AiFillGithub size={40} />
           <BaseText medium regular text="GitHub" />
         </div>
         <div className={styles.contentIconColumn}>
-          <SiAdobexd size={50} />
+          <SiAdobexd size={40} />
           <BaseText medium regular text="Adobe XD" />
         </div>
       </div>
