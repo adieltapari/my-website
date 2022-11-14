@@ -36,7 +36,7 @@ const About: FC = () => {
         </div>
         <div className={styles.contentIconColumn}>
           <IoLogoNodejs size={40} />
-          <BaseText medium regular text="NodeJs" />
+          <BaseText medium regular text="Node.js" />
         </div>
         <div className={styles.contentIconColumn}>
           <SiMongodb size={40} />
@@ -44,7 +44,7 @@ const About: FC = () => {
         </div>
         <div className={styles.contentIconColumn}>
           <TbBrandNextjs size={40} />
-          <BaseText medium regular text="NextJS" />
+          <BaseText medium regular text="Next.js" />
         </div>
         <div className={styles.contentIconColumn}>
           <GrReactjs size={40} />

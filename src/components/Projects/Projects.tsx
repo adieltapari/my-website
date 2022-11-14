@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import BaseTitle from '../common/BaseTitle';
 
 import BaseCard from '../common/BaseCard';
@@ -12,23 +12,39 @@ const Projects: FC = () => {
         <BaseCard
           title="Ecommerce"
           src="/ecommerce.png"
-          info="Ecommerce development, frontend developed in reactjs and backend using fech and firebase"
+          info="Ecommerce development, using fech and firebase."
+          reactjs
+          linkfront="https://github.com/adieltapari/ecommerce-reactjs.git"
+          linkview="https://ecommerce-reactjs-flax.vercel.app/"
         />
         <BaseCard
           title="My Website"
           src="/mywebsite.png"
-          info="Personal full stack developer portfolio"
+          info="Personal full stack developer portfolio website."
+          nextjs
+          typescript
+          linkfront="https://github.com/adieltapari/my-website.git"
         />
         <BaseCard
           title="Affiliate System"
           src="/systemaffiliate.png"
           info="Created to carry out and manage surveys, with roles and permissions."
+          reactjs
+          typescript
+          nodejs
+          mongodb
+          linkfront="https://github.com/adieltapari/"
+          linkback="https://github.com/adieltapari/"
+          linkview="https://ecommerce-reactjs-flax.vercel.app/"
         />
         <BaseCard
           title="Api Climate"
           src="/appclimate.jpg"
           info="With this app you can check the weather at a glance in a very complete way.
           "
+          reactjs
+          nodejs
+          linkback="https://github.com/adieltapari/"
         />
       </div>
     </div>
