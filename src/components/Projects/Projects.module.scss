@@ -1,5 +1,8 @@
 @import '../../styles/mixings.scss';
 
+.projectsContainer {
+  display: grid;
+}
 .contentBaseCard {
   display: grid;
   grid-template-columns: 1fr 1fr;
