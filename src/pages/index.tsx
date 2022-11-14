@@ -26,8 +26,14 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Adiel Tapari</title>
-        <meta name="description" content="Developer - Mountain climber." />
         <link rel="icon" href="/favicon.png" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="Developer - Robotics - Mountain climber." />
+        <meta property="og:title" content="🚀 Adiel Tapari" />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1589254065909-b7086229d08c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        />
       </Head>
       {!showExperience && (
         <motion.div
