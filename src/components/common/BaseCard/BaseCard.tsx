@@ -21,7 +21,7 @@ const BaseCard: FC<Props> = ({ title, src, info }) => {
           <Image src={`${src}`} width={350} height={150} alt={`image/${title}`} />
         </div>
         <div className={styles.textContainer}>
-          <BaseText text={info} size={10} regular color="var(--color-text-third)" />
+          <BaseText text={info} size={12} regular color="var(--color-text-third)" />
         </div>
         <div className={styles.iconContainer}>
           <div className={styles.backContainer}>
