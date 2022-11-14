@@ -1,3 +1,5 @@
+@import '../../../styles/mixings.scss';
+
 .text {
   font-size: 16px;
   line-height: 25px;
@@ -27,5 +29,9 @@
   &.thin {
     font-family: var(--main-font);
     font-weight: 300;
+  }
+  @include media-breakpoint-between(xs, sm) {
+    text-align: center;
+    margin: 10px 0 10px 0;
   }
 }
