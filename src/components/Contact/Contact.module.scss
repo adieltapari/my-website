@@ -1,0 +1,16 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1.5px solid rgb(49, 53, 56);
+  padding: 0 332px 0 332px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  margin: 25px 0px 25px 0px;
+}

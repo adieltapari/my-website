@@ -6,6 +6,8 @@ import { ImHtmlFive2 } from 'react-icons/im';
 import { SiMongodb } from 'react-icons/si';
 import { GrReactjs } from 'react-icons/gr';
 import { SiTypescript } from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
+import { SiAdobexd } from 'react-icons/si';
 
 import { TbBrandNextjs } from 'react-icons/tb';
 import { IoLogoCss3 } from 'react-icons/io';
@@ -16,6 +18,12 @@ const About: FC = () => {
   return (
     <div id="skills" className={styles.containerSkills}>
       <BaseTitle size={38} title="Skills" marginBottom={100} marginTop={200} />
+      <BaseText
+        medium
+        regular
+        text="These are some of the technologies I use in my projects."
+        marginBottom={50}
+      />
 
       <div className={styles.contentIcon}>
         <div className={styles.contentIconColumn}>
@@ -49,6 +57,14 @@ const About: FC = () => {
         <div className={styles.contentIconColumn}>
           <SiTypescript size={50} />
           <BaseText medium regular text="Type Script" />
+        </div>
+        <div className={styles.contentIconColumn}>
+          <AiFillGithub size={50} />
+          <BaseText medium regular text="GitHub" />
+        </div>
+        <div className={styles.contentIconColumn}>
+          <SiAdobexd size={50} />
+          <BaseText medium regular text="Adobe XD" />
         </div>
       </div>
     </div>
