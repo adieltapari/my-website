@@ -11,16 +11,18 @@ const Header: FC = () => {
       <BaseTitle size={32} title="Adiel" />
 
       <Link href="/">
-        <BaseText medium text=".about" />
+        <BaseText bold text="ABOUT" />
       </Link>
       <Link href="/#projects">
-        <BaseText medium text=".projects" />
+        <BaseText medium text="PROJECTS" />
       </Link>
       <Link href="/#skills">
-        <BaseText medium text=".skills" />
+        <BaseText medium text="SKILLS" />
       </Link>
       <div>
-        <BaseText medium text=".contact" />
+        <Link href="/#contact">
+          <BaseText medium text="CONTACT" />
+        </Link>
       </div>
       <div className={styles.themeChangeContainer}>
         <ThemeChange />
