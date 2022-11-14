@@ -2,7 +2,7 @@
 
 .cardGrid {
   display: grid;
-  grid-template-rows: 0.5fr 2fr 1fr 0.8fr 0.8fr;
+  grid-template-rows: 0.2fr 2fr 1fr 1fr 1fr;
   align-content: center;
   justify-content: center;
   flex-direction: column;
@@ -11,7 +11,6 @@
   border-radius: 10px;
   margin: 20px 15px 15px 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  cursor: pointer;
   @include media-breakpoint-between(xs, sm) {
     display: flex;
     width: 100%;
@@ -41,8 +40,9 @@
   justify-content: space-around;
 }
 .infoContent {
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
+  align-items: center;
 }
 
 .iconContainer {
@@ -80,4 +80,8 @@
   flex-direction: row;
   margin-left: 15px;
   width: 100%;
+
+  @include media-breakpoint-between(xs, sm) {
+    height: 3rem;
+  }
 }
