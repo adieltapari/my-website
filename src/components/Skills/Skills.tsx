@@ -21,19 +21,11 @@ const About: FC = () => {
       <BaseText
         medium
         regular
-        text="These are some of the technologies I use in my projects."
+        text="These are some of the technologies and software that I use in my projects."
         marginBottom={50}
       />
 
       <div className={styles.contentIcon}>
-        <div className={styles.contentIconColumn}>
-          <IoLogoNodejs size={40} />
-          <BaseText medium regular text="NodeJs" />
-        </div>
-        <div className={styles.contentIconColumn}>
-          <TbBrandJavascript size={40} />
-          <BaseText medium regular text="Java Script" />
-        </div>
         <div className={styles.contentIconColumn}>
           <ImHtmlFive2 size={40} />
           <BaseText medium regular text="HTML5" />
@@ -41,6 +33,10 @@ const About: FC = () => {
         <div className={styles.contentIconColumn}>
           <IoLogoCss3 size={40} />
           <BaseText medium regular text="CSS3" />
+        </div>
+        <div className={styles.contentIconColumn}>
+          <IoLogoNodejs size={40} />
+          <BaseText medium regular text="NodeJs" />
         </div>
         <div className={styles.contentIconColumn}>
           <SiMongodb size={40} />
@@ -55,16 +51,20 @@ const About: FC = () => {
           <BaseText medium regular text="ReactJS" />
         </div>
         <div className={styles.contentIconColumn}>
-          <SiTypescript size={40} />
-          <BaseText medium regular text="Type Script" />
-        </div>
-        <div className={styles.contentIconColumn}>
           <AiFillGithub size={40} />
           <BaseText medium regular text="GitHub" />
         </div>
         <div className={styles.contentIconColumn}>
           <SiAdobexd size={40} />
           <BaseText medium regular text="Adobe XD" />
+        </div>
+        <div className={styles.contentIconColumn}>
+          <SiTypescript size={40} />
+          <BaseText medium regular text="Type Script" />
+        </div>
+        <div className={styles.contentIconColumn}>
+          <TbBrandJavascript size={40} />
+          <BaseText medium regular text="Java Script" />
         </div>
       </div>
     </div>
