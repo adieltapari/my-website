@@ -11,12 +11,12 @@
   margin-bottom: 200px;
   background-color: var(--background);
   position: fixed;
-
   transition-duration: 0.3s;
   transition-timing-function: linear;
 
   @include media-breakpoint-between(xs, sm) {
     grid-template-columns: 1fr;
+    height: 16rem;
     padding: 10px 15px 0 15px;
   }
 
