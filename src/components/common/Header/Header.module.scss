@@ -16,7 +16,7 @@
 
   @include media-breakpoint-between(xs, sm) {
     grid-template-columns: 1fr;
-    height: 16rem;
+    height: 12rem;
     padding: 10px 15px 0 15px;
   }
 

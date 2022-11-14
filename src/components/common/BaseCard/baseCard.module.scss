@@ -30,6 +30,9 @@
 .textContainer {
   display: flex;
   margin-left: 15px;
+  @include media-breakpoint-between(xs, sm) {
+    margin-left: 0px;
+  }
 }
 
 .cardsContainer {
