@@ -16,7 +16,7 @@ const Header: FC = () => {
         to="about"
         spy={true}
         smooth={true}
-        offset={-180}
+        offset={-190}
         duration={900}
       >
         <BaseText bold text="ABOUT" />
@@ -26,7 +26,7 @@ const Header: FC = () => {
         to="projects"
         spy={true}
         smooth={true}
-        offset={50}
+        offset={0}
         duration={600}
       >
         <BaseText medium text="PROJECTS" />
@@ -36,7 +36,7 @@ const Header: FC = () => {
         to="skills"
         spy={true}
         smooth={true}
-        offset={50}
+        offset={0}
         duration={900}
       >
         <BaseText medium text="SKILLS" />
@@ -47,7 +47,7 @@ const Header: FC = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={0}
           duration={1500}
         >
           <BaseText medium text="CONTACT" />
