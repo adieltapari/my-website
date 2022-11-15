@@ -1,26 +1,55 @@
 import { FC } from 'react';
+import { Link } from 'react-scroll';
+
 import BaseTitle from '../BaseTitle';
 import ThemeChange from './components/ThemeChange';
 import styles from './Header.module.scss';
 import BaseText from '../BaseText';
-import Link from 'next/link';
 
 const Header: FC = () => {
   return (
     <div className={styles.header}>
       <BaseTitle size={32} title="Adiel" />
 
-      <Link href="/">
+      <Link
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-180}
+        duration={900}
+      >
         <BaseText bold text="ABOUT" />
       </Link>
-      <Link href="/#projects">
+      <Link
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={600}
+      >
         <BaseText medium text="PROJECTS" />
       </Link>
-      <Link href="/#skills">
+      <Link
+        activeClass="active"
+        to="skills"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={900}
+      >
         <BaseText medium text="SKILLS" />
       </Link>
       <div>
-        <Link href="/#contact">
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={1500}
+        >
           <BaseText medium text="CONTACT" />
         </Link>
       </div>

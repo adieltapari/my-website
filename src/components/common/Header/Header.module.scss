@@ -13,7 +13,7 @@
   position: fixed;
   transition-duration: 0.3s;
   transition-timing-function: linear;
-
+  cursor: pointer;
   @include media-breakpoint-between(xs, sm) {
     grid-template-columns: 1fr;
     height: 12rem;
