@@ -13,7 +13,7 @@ import styles from './About.module.scss';
 
 const About: FC = () => {
   return (
-    <>
+    <div id="about">
       <BaseImage
         circle
         right
@@ -47,7 +47,7 @@ market."
         <FaMountain size={40} />
         <FaRobot size={40} />
       </div>
-    </>
+    </div>
   );
 };
 
