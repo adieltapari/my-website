@@ -35,7 +35,7 @@ const Projects: FC = () => {
           mongodb
           linkfront="https://github.com/adieltapari/"
           linkback="https://github.com/adieltapari/"
-          linkview="https://ecommerce-reactjs-flax.vercel.app/"
+          linkview="https://frontend-home-file.vercel.app/"
         />
         <BaseCard
           title="Api Climate"
