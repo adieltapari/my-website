@@ -37,15 +37,14 @@ const Home: NextPage = () => {
       </Head>
       {!showExperience && (
         <motion.div
-          initial={{ x: 300, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: 300, opacity: 0 }}
+          initial={{ x: '-1000', opacity: 0 }}
+          animate={{ opacity: 1, fontSize: '6rem', x: 0, y: 0 }}
           transition={{
             type: 'spring',
-            duration: 0.8,
-            delay: 0.3,
-            stiffness: 260,
-            damping: 20,
+            duration: 0.9,
+            delay: 0.2,
+            stiffness: 800,
+            damping: 250,
           }}
           onClick={() => setShowExperience(!showExperience)}
         >
