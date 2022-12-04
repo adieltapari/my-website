@@ -37,11 +37,16 @@ const Home: NextPage = () => {
       </Head>
       {!showExperience && (
         <motion.div
-          initial="hidden"
-          animate="visible"
-          className={styles.name}
-          variants={VARIANTS_OPACITY}
-          transition={{ ease: 'easeOut', delay: 0.2 }}
+          initial={{ x: 300, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: 300, opacity: 0 }}
+          transition={{
+            type: 'spring',
+            duration: 0.8,
+            delay: 0.3,
+            stiffness: 260,
+            damping: 20,
+          }}
           onClick={() => setShowExperience(!showExperience)}
         >
           <BaseImage
