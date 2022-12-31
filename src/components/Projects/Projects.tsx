@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import BaseTitle from '../common/BaseTitle';
-
+import React from 'react';
 import BaseCard from '../common/BaseCard';
 import styles from './Projects.module.scss';
 
@@ -16,6 +16,7 @@ const Projects: FC = () => {
           reactjs
           linkfront="https://github.com/adieltapari/ecommerce-reactjs.git"
           linkview="https://ecommerce-reactjs-flax.vercel.app/"
+          linkplayer="https://youtu.be/TsJgqbQ4Gt4"
         />
         <BaseCard
           title="My Website"
@@ -24,6 +25,7 @@ const Projects: FC = () => {
           nextjs
           typescript
           linkfront="https://github.com/adieltapari/my-website.git"
+          linkplayer="https://youtu.be/Gl5D20rVet4"
         />
         <BaseCard
           title="Affiliate System"
@@ -36,6 +38,7 @@ const Projects: FC = () => {
           linkfront="https://github.com/adieltapari/"
           linkback="https://github.com/adieltapari/"
           linkview="https://frontend-home-file.vercel.app/"
+          linkplayer="https://youtu.be/sQpA-KpP0hs"
         />
         <BaseCard
           title="Api Climate"

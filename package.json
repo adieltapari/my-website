@@ -20,10 +20,12 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "react-modal": "^3.16.1",
     "react-scroll": "^1.8.8",
     "sass": "^1.56.1"
   },
   "devDependencies": {
+    "@types/react-modal": "^3.13.1",
     "@types/react-scroll": "^1.8.5",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "eslint": "^8.27.0",
@@ -35,6 +37,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.7.1",
     "prettier-eslint-cli": "^7.1.0",
+    "react-player": "^2.11.0",
     "typescript": "^4.8.4"
   }
 }
