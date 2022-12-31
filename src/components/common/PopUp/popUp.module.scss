@@ -10,6 +10,7 @@
   flex-direction: column;
   @include media-breakpoint-between(xs, sm) {
     width: auto;
+    margin: 0px;
   }
 }
 
