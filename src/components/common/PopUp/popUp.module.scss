@@ -1,0 +1,44 @@
+@import '../../../styles/mixings.scss';
+
+.modalContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  margin: 25px 10% 20px 10%;
+  flex-direction: column;
+  @include media-breakpoint-between(xs, sm) {
+    width: auto;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: var(--title-primary-font);
+  color: var(--title-color-primary);
+  font-size: 34px;
+  font-weight: 700;
+  @include media-breakpoint-between(xs, sm) {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+.close {
+  margin-top: 10px;
+  cursor: pointer;
+  @include media-breakpoint-between(xs, sm) {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+}

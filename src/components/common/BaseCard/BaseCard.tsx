@@ -1,16 +1,20 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import Image from 'next/image';
+import ReactPlayer from 'react-player';
 import BaseText from '../BaseText/BaseText';
 import styles from './baseCard.module.scss';
 import BaseTitle from '../BaseTitle';
 import { AiFillGithub } from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi';
+import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 import Link from 'next/link';
+import PopUp from '../PopUp';
 
 interface Props {
   title: string;
   src: string;
+  linkplayer?: string;
   info: string;
   nextjs?: boolean;
   typescript?: boolean;
@@ -23,6 +27,7 @@ interface Props {
 }
 const BaseCard: FC<Props> = ({
   title,
+  linkplayer,
   src,
   info,
   nextjs,
@@ -34,14 +39,37 @@ const BaseCard: FC<Props> = ({
   linkback,
   linkview,
 }) => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const showModal = () => {
+    setModalIsOpen(!modalIsOpen);
+  };
+
   return (
     <div>
       <div className={styles.cardGrid}>
         <div className={styles.infoContent}>
           <BaseTitle title={title} />
         </div>
-        <div className={styles.imgContainer}>
+        <div className={styles.imgContainer} onClick={showModal}>
           <Image src={`${src}`} width={350} height={150} alt={`image/${title}`} />
+          <div className={styles.linkContainer}>
+            <BsFillPlayCircleFill size={40} color={'#17202A'} />
+          </div>
+          <PopUp
+            title=""
+            children={
+              <ReactPlayer
+                url={`${linkplayer}`}
+                width="100%"
+                height="600px"
+                playing={true}
+                controls={false}
+              />
+            }
+            modalIsOpen={modalIsOpen}
+            closeModal={showModal}
+          />
         </div>
         <div className={styles.textContainer}>
           <BaseText text={info} size={12} regular color="var(--color-text-third)" />
