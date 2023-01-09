@@ -47,7 +47,10 @@ const Projects: FC = () => {
           "
           reactjs
           nodejs
-          linkback="https://github.com/adieltapari/"
+          typescript
+          mongodb
+          linkfront="https://github.com/adieltapari/react-weather-app.git"
+          linkback="https://github.com/adieltapari/challenge_weather.git"
         />
       </div>
     </div>
